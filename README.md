@@ -24,8 +24,3 @@ Welcome to the repository! This repository contains various mini-projects and ga
 - Description: A mini version of the Yahtzee dice game.
 - Directory: `Yahtzee_mini_game`
 
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   https://github.com/gkolfisg/python_mini_Projects
