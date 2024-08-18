@@ -28,4 +28,4 @@ Welcome to the repository! This repository contains various mini-projects and ga
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/gkolfisg/python_mini_Projects
+   https://github.com/gkolfisg/python_mini_Projects
