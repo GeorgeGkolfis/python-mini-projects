@@ -1,4 +1,4 @@
-# Project Repository
+# Projects Repository
 
 Welcome to the repository! This repository contains various mini-projects and games. Below is a brief overview of each project.
 
