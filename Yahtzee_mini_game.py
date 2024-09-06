@@ -2,7 +2,7 @@
 
 from random import seed
 from random import randrange
-from datetime import datetime  # all 3 at the beginning
+from datetime import datetime  
 
 score = [
     {
