@@ -91,21 +91,21 @@ def pc_moves(level):
 
         else:
             corner_squares = [(0,0), (0,2), (2,0), (2,2)]
-            empty_squares = []  # False
+            empty_squares = []  
             for sq in corner_squares:
                 if board[sq[0]][sq[1]] == " ":
                     empty_squares += [sq]
 
-            if empty_squares:  # empty_squares == True
+            if empty_squares:  
                 return empty_squares[randrange(len(empty_squares))]
 
             middle_squares = [(0, 1), (1, 0), (1, 2), (2, 1)]
-            empty_squares = []  # False
+            empty_squares = []  
             for sq in middle_squares:
                 if board[sq[0]][sq[1]] == " ":
                     empty_squares += [sq]
 
-            if empty_squares:  # empty_squares == True
+            if empty_squares:  
                 return empty_squares[randrange(len(empty_squares))]
 
 
@@ -148,7 +148,7 @@ def main():
             board[sq[0]][sq[1]] = "O"
 
         #  check winner
-        winner = False   # meaning we don't have a winner
+        winner = False   
         for i in range(3):
             if check_row(i):
                 winner = player
@@ -161,7 +161,7 @@ def main():
             if check_diagonals():
                 winner = player
 
-        if winner == True:  # or winner:
+        if winner == True:  
             print_board()
             print("Player " + player + " won!!!")
             break
