@@ -99,8 +99,8 @@ class Lessons:
     def delete_lesson(self, lesson_id):                        
         for i in range(len(self.lessons)):                     
             if lesson_id == self.lessons[i].lesson_id:         
-                self.lessons.pop(i)                            #           self.lessons.remove(lesson)
-                return                                         #           return
+                self.lessons.pop(i)                            
+                return                                         
             else:
                 print("No lesson with this id!!!")
 
