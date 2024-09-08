@@ -130,7 +130,7 @@ def main():
                 elif delete_choice == 2:
                     surname = input("Give surname: ")
                     matching_pupils = pupils.search_pupil_by_surname(surname)
-                    if matching_pupils == []:  # [] == False, matching_pupils != [] the same as matching_pupils:
+                    if matching_pupils == []:  
                         print("No matching pupils with this surname!")
                         continue
                     elif len(matching_pupils) == 1:
