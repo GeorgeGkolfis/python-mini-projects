@@ -96,9 +96,9 @@ class Lessons:
                         lesson.pupil_ids.remove(upd_pupil_id)
                 break
 
-    def delete_lesson(self, lesson_id):                        # def delete_lesson(self, lesson_id):
-        for i in range(len(self.lessons)):                     #   for lesson in self.lessons:
-            if lesson_id == self.lessons[i].lesson_id:         #       if lesson_id == self.lessons.lesson_id:
+    def delete_lesson(self, lesson_id):                        
+        for i in range(len(self.lessons)):                     
+            if lesson_id == self.lessons[i].lesson_id:         
                 self.lessons.pop(i)                            #           self.lessons.remove(lesson)
                 return                                         #           return
             else:
